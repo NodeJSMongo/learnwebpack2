@@ -1,0 +1,45 @@
+{
+  "name": "learnwebpack2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeJSMongo/learnwebpack2.git"
+  },
+  "author": "mahmud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NodeJSMongo/learnwebpack2/issues"
+  },
+  "homepage": "https://github.com/NodeJSMongo/learnwebpack2#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "lost": "^8.2.0",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.8",
+    "rucksack-css": "^1.0.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
